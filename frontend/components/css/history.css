@@ -1,0 +1,47 @@
+.div-box {
+    padding: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .table thead {
+        display: none;
+    }
+
+    .table tr {
+        margin-bottom: 1rem;
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .table td {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        border-bottom: 1px dotted #ccc;
+    }
+
+    .table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,27 @@
+.container-fluid {
+   
+}
+
+.con {
+    border: 1px solid black; 
+    padding: 20px; 
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    margin-left: 35rem;
+    height: 80%;
+    background-color: #ffffff; 
+}
+.qr{
+    border: 1px solid rgb(255, 255, 255); 
+    padding: 20px; 
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+    height: 40%;
+    background-color: #f9f9f9;
+}
+.body-col{
+    background-color: rgb(228, 232, 203);
+}
