@@ -10,3 +10,7 @@ Used Technology
 
 # Start Frontend using 
 <code>npm run dev </code>
+
+# start backend using 
+<code> npm start </code>
+
